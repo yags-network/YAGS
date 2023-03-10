@@ -20,7 +20,7 @@ text-shadow: 5px 5px 10px rgba(28, 6, 30, 0.4);
 
 @font-face {
     font-family: sfui;
-    src: url(SFUIDisplay-Bold.ttf);
+    src: url("Fonts/SFUIDisplay-Bold.ttf");
 }
 
 .top {
