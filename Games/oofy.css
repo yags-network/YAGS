@@ -20,7 +20,7 @@ text-shadow: 5px 5px 10px rgba(28, 6, 30, 0.4);
 
 @font-face {
     font-family: sfui;
-    src: url(SFUIDisplay-Bold.ttf);
+    src: url("../SFUIDisplay-Bold.ttf");
 }
 
 .top {
@@ -68,5 +68,6 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 
 .column {
 float: left;
-padding-right: 10px
+padding-right: 10px;
+text-align: center;
 }

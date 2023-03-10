@@ -1,0 +1,31 @@
+﻿<DOCTYPE html>
+<head>
+	<link href="./oofy.css" rel="stylesheet">
+  <title>YAGS</title>
+
+	<style type="text/css">
+.style3 {
+	text-align: right;
+}
+</style>
+  
+</head>
+<body>
+<div class="top">
+<h1>YAGS</h1>
+<h2>(Yet Another Game Site)</h2>
+<h3> you aren't supposed to be here lol</h3>
+<script>
+function openGame() {
+var win = window.open()
+var url = document.getElementById("myinput").value;
+var iframe = win.document.createElement('iframe')
+iframe.style.width = "100%";
+iframe.style.height = "100%";
+iframe.style.border = "none";
+iframe.src = url
+win.document.body.appendChild(iframe)
+}
+</script>
+</div>
+</body>
