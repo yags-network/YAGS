@@ -6,3 +6,5 @@
 **Status Page**: [Status](status.yags.tech)
 
 **Docs**: [Docs](docs.yags.tech)
+
+github isnt pushed yet
