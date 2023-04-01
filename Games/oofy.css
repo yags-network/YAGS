@@ -1,7 +1,6 @@
 ﻿html {
 background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 background-position: center;
-background-repeat: no-repeat;
 color: white;
 text-shadow: 5px 5px 10px rgba(28, 6, 30, 0.4);
 }
@@ -70,4 +69,21 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 float: left;
 padding-right: 10px;
 text-align: center;
+}
+
+.column img {
+transition: .5s ease;
+}
+
+.column img:hover{
+box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
 }

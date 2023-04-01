@@ -20,7 +20,7 @@ text-shadow: 5px 5px 10px rgba(28, 6, 30, 0.4);
 
 @font-face {
     font-family: sfui;
-    src: url("Fonts/SFUIDisplay-Bold.ttf");
+    src: url("SFUIDisplay-Bold.ttf");
 }
 
 .top {
@@ -69,4 +69,27 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 .column {
 float: left;
 padding-right: 10px
+}
+
+.game {
+	height:100vh;
+	
+}
+.column img {
+height: 128px;
+width: 128px;
+transition: .5s ease;
+}
+
+.column img:hover{
+box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
 }

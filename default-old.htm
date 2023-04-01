@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Google</title>
+</head>
+
+<body>
+
+<button onclick="openGame()">Go!</button>
+
+<script>
+function openGame() {
+var win = window.open()
+var url = "https://kazo.tech/main.html";
+var iframe = win.document.createElement('iframe')
+iframe.style.width = "100%";
+iframe.style.height = "100%";
+iframe.style.border = "none";
+iframe.src = url
+win.document.body.appendChild(iframe)
+location.replace("https://google.com")
+}
+</script>
+
+</body>
+
+</html>
