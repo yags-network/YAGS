@@ -1,0 +1,46 @@
+﻿<DOCTYPE html>
+<head>
+	<link href="oofy.css" rel="stylesheet">
+  <title>YAGS</title>
+
+	<style type="text/css">
+.style3 {
+	text-align: right;
+}
+</style>
+
+<script>
+  let show = () => {
+    let input = document.getElementById("myinput");
+    alert("Value = " + input.value);
+  }
+</script>
+</head>
+<body>
+<div class="top">
+<h1>YAGS</h1>
+<h2>(Your Average Game Site)</h2>
+</div>
+<div class="input">
+<form method="post">
+<input id="myinput" type="text" value="">
+</div>
+
+<div class="button-contain" 
+ <button onclick="openGame()">Go!</button>
+ </div>
+ 
+<script>
+function openGame() {
+var win = window.open()
+var url = document.getElementById("myinput").value;
+var iframe = win.document.createElement('iframe')
+iframe.style.width = "100%";
+iframe.style.height = "100%";
+iframe.style.border = "none";
+iframe.src = url
+win.document.body.appendChild(iframe)
+}
+</script>
+</div>
+</body>
