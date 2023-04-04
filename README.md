@@ -3,7 +3,7 @@
 
 YAGS is a game site with many features being developed, and a huge roadmap! We have lots of games, a few proxies, exploits, cheats, and themes to customize to your liking!
 
-Status Page: [Status](status.yags.tech)
+Status Page: [Status](https://status.yags.tech)
 
-Docs: [Docs](docs.yags.tech)
+Docs: [Docs](https://docs.yags.tech)
 
